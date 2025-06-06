@@ -40,4 +40,7 @@ function navAnimation() {
     });
   });
 }
-navAnimation();
+
+document.addEventListener("DOMContentLoaded", () => {
+  navAnimation();
+});
