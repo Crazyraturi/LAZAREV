@@ -79,7 +79,7 @@ nav {
   z-index: 10;
 }
 
-nav:hover #nav-bottom {
+.nav-part2:hover #nav-bottom {
   height: 100%;
   bottom: -100%;
 }
@@ -90,6 +90,7 @@ nav:hover #nav-bottom {
   padding: 1vh 0;
   position: relative;
   z-index: 10;
+  cursor: pointer;
 }
 
 .nav-part2 h4 {
@@ -144,7 +145,6 @@ nav button svg {
   width: 79%;
   height: 0vh;
   position: absolute;
-  background-color: red;
   top: 100%;
   background-color: #111;
   z-index: 9;
